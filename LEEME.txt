@@ -1,0 +1,29 @@
+LUMDIAMONDS — TIENDA WEB DEMO
+================================
+
+ARCHIVOS
+- index.html: estructura y diseño.
+- app.js: catálogo, paquetes de precios y comportamiento.
+
+CÓMO ABRIR
+1. Extrae el archivo ZIP.
+2. Abre index.html en Chrome, Edge o Firefox.
+3. La tienda funciona sin instalar programas. El diseño y las ilustraciones son locales/CSS, no dependen de imágenes externas.
+
+IMPORTANTE SOBRE LOS PRECIOS
+Los precios incluidos son ejemplos de demostración, NO precios oficiales ni verificados de EnzStore o de proveedores. Cámbialos en app.js por tus precios reales antes de vender. Algunos productos aparecen como “Consultar” para evitar inventar tarifas.
+
+CÓMO CAMBIAR PRECIOS
+1. Abre app.js en un editor de texto.
+2. Busca el juego y modifica el arreglo packages, por ejemplo:
+   packages:[["100 diamantes","Bs 7"],["310 diamantes","Bs 20"]]
+3. Cambia también price para el precio que aparece en la tarjeta.
+
+CÓMO CONECTAR WHATSAPP
+En las primeras líneas de app.js cambia:
+const WHATSAPP_NUMBER = "";
+por tu número internacional sin +, espacios ni guiones, por ejemplo:
+const WHATSAPP_NUMBER = "591XXXXXXXX";
+Usa tu número real. El botón preparará el pedido y abrirá WhatsApp.
+
+Esta plantilla no procesa pagos, no valida cuentas de juego y no entrega productos automáticamente. Antes de publicar, verifica precios, reglas del proveedor, regiones de gift cards y condiciones de cada juego.
